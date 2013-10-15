@@ -15,17 +15,17 @@ CRIO model: 9074 (8-slot)
 Modules: DIO 1
 
 Descrition of contents:
-Autonomous Independent    default sample code for autonomous movements
-Begin                     initializes PWM motor channel refrences and Joystick refrences
-Disabled                  idle code to prevent unwarrented behavior
-Elapsed Times             default code for timing (its a clock)
-Finish                    closes refrences
-.aliases                  device refrences
-.lvps                     project settings
-.lvproj                   main project file
-~~Periodic tasks            repetitive timing based tasks~~
-Robot Global Data         global variable container
-Robot Main                main code file
-Teleop                    remote operater code and control
-~~Test                      used for safely testing sensors/actuators~~
-~~Vision Processing         Handles camera data and image analysis~~
+* Autonomous Independent    default sample code for autonomous movements
+* Begin                     initializes PWM motor channel refrences and Joystick refrences
+* Disabled                  idle code to prevent unwarrented behavior
+* Elapsed Times             default code for timing (its a clock)
+* Finish                    closes refrences
+* .aliases                  device refrences
+* .lvps                     project settings
+* .lvproj                   main project file
+* ~~Periodic tasks            repetitive timing based tasks~~
+* Robot Global Data         global variable container
+* Robot Main                main code file
+* Teleop                    remote operater code and control
+* ~~Test                      used for safely testing sensors/actuators~~
+* ~~Vision Processing         Handles camera data and image analysis~~
